@@ -1,3 +1,125 @@
-.calculation p {
-  font-family: $font_opensans;
+.histori {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1px;
+  grid-auto-rows: 50px;
+  grid-template-areas: "a b c d";
+  align-items: stretch;
+}
+.item1 {
+  margin: 0px;
+  grid-area: a;
+  text-align: center;
+  background-color: rgb(98, 230, 105);
+  padding: 5px;
+}
+.item2 {
+  grid-area: b;
+  text-align: center;
+  margin: 0px;
+  padding: 5px;
+  background-color: rgb(210, 252, 213);
+}
+.item3 {
+  grid-area: c;
+  text-align: center;
+  margin: 0px;
+  padding: 5px;
+}
+.item4 {
+  grid-area: d;
+  text-align: center;
+  margin: 0px;
+  padding: 5px;
+}
+
+.center {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 250px;
+  grid-template-areas: "a b";
+  align-items: stretch;
+  background-color: rgb(205, 212, 202);
+  border: none;
+  height: 550px;
+}
+.left {
+  grid-area: a;
+  height: 520px;
+}
+.right {
+  grid-area: b;
+  height: 520px;
+}
+
+.message {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1px;
+  grid-auto-rows: 70px;
+  grid-template-areas: "a b c";
+  align-items: stretch;
+  border: none;
+}
+.message1 {
+  padding-top: 15px;
+  margin: 0px;
+  grid-area: a;
+  text-align: center;
+}
+.message2 {
+  padding-top: 15px;
+  grid-area: b;
+  text-align: center;
+  margin: 0px;
+}
+.message3 {
+  padding-top: 15px;
+  grid-area: c;
+  text-align: center;
+  margin: 0px;
+}
+
+.info {
+  height: 330px;
+  text-align: left;
+  margin-left: 25px;
+  border: none;
+}
+
+//Не нужно использовать заглавные буквы в создании классов
+
+.NextStep div {
+  display: inline-block;
+  height: 150px;
+}
+
+.NextStep {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 100px;
+  grid-template-areas: "a b";
+  align-items: stretch;
+  border: none;
+  height: 160px;
+}
+.Acolumn a {
+  grid-area: a;
+}
+.Bcolumn {
+  grid-area: b;
+}
+
+.right div:last-child {
+  height: 150px;
+}
+
+.manage_mortgage {
+  height: 270px;
+}
+
+.comfort li {
+  text-align: left;
 }

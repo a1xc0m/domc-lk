@@ -1,0 +1,44 @@
+/* Стилизация nav_main */
+
+.nav_main {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav_main .nav {
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* убираем маркеры */
+}
+
+.nav_main .logo_phone {
+  font-family: $font_opensans;
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav a {
+  font-family: $font_opensans;
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  padding: 33px 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav a:hover {
+  height: 100%;
+  box-shadow: 0 0 30px rgb(48, 95, 71);
+}
+
