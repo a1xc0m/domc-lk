@@ -1,38 +1,79 @@
 .histori {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1px;
-  grid-auto-rows: 50px;
-  grid-template-areas: "a b c d";
-  align-items: stretch;
+  //display: grid;
+  //grid-template-columns: repeat(4, 1fr);
+  //grid-gap: 1px;
+  //grid-auto-rows: 50px;
+  //grid-template-areas: "a b c d";
+  //align-items: stretch;
+  //display: flex;
+  //height: 100%;
+  //justify-content: space-between;
+  //border-radius: 5px;
+  background-color: $general_background_color;
+  //margin-top: 10px;
+  //margin-bottom: 10px;
 }
-.item1 {
+
+.histori_wrap {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: $general_background_color;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.histori_wrap .bg_color {
+  width: 24.5%;
   margin: 0px;
   grid-area: a;
   text-align: center;
-  background-color: rgb(98, 230, 105);
+  background-color: rgb(115, 225, 120);
   padding: 5px;
+  border-radius: 5px;
+  //box-shadow: 0 0 10px #c2c2c2;
 }
-.item2 {
+
+.histori_wrap .histori_item {
+  width: 24.5%;
   grid-area: b;
   text-align: center;
   margin: 0px;
   padding: 5px;
-  background-color: rgb(210, 252, 213);
+  background-color: $white_color;
+  border-radius: 5px;
+  //box-shadow: 0 0 10px #c2c2c2;
 }
-.item3 {
+
+.histori_item:hover,
+.bg_color:hover {
+  box-shadow: 0 0 30px $shadow_green_hover;
+}
+
+/*
+.histori_wrap .item3 {
+  width: 24.5%;
   grid-area: c;
   text-align: center;
   margin: 0px;
   padding: 5px;
+  background-color: $white_color;
+  border-radius: 5px;
+  //box-shadow: 0 0 10px #c2c2c2;
 }
-.item4 {
+
+.histori_wrap .item4 {
+  width: 24.5%;
   grid-area: d;
   text-align: center;
   margin: 0px;
   padding: 5px;
+  background-color: $white_color;
+  border-radius: 5px;
+  //box-shadow: 0 0 10px #c2c2c2;
 }
-
+*/
 .center {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -40,7 +81,7 @@
   grid-auto-rows: 250px;
   grid-template-areas: "a b";
   align-items: stretch;
-  background-color: rgb(205, 212, 202);
+  background-color: $general_background_color;
   border: none;
   height: 550px;
 }
@@ -48,56 +89,85 @@
 .left {
   grid-area: a;
   height: 520px;
+  border-radius: 5px;
+}
+
+.left:hover {
+  box-shadow: 0 0 30px $shadow_green_hover;
 }
 
 .right {
   grid-area: b;
   height: 520px;
+  border-radius: 5px;
 }
 
-.message {
-  display: grid;
+.right:hover {
+  box-shadow: 0 0 30px $shadow_green_hover;
+}
+
+.take_action {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.take_action:hover {
+  box-shadow: 0 0 30px $shadow_green_hover;
+}
+
+.manage_mortgage {
+  height: 270px;
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.manage_mortgage:hover {
+  box-shadow: 0 0 30px $shadow_green_hover;
+}
+
+.comfort li {
+  text-align: left;
+}
+
+.action_list {
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1px;
   grid-auto-rows: 70px;
   grid-template-areas: "a b c";
   align-items: stretch;
   border: none;
+  */
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-.message1 {
+
+.action_item {
   padding-top: 15px;
-  margin: 0px;
-  grid-area: a;
-  text-align: center;
-}
-.message2 {
-  padding-top: 15px;
-  grid-area: b;
-  text-align: center;
-  margin: 0px;
-}
-.message3 {
-  padding-top: 15px;
-  grid-area: c;
-  text-align: center;
-  margin: 0px;
+  padding-bottom: 15px;
+  //margin: 0px;
+  //grid-area: a;
+  //text-align: center;
 }
 
 .info {
-  height: 330px;
+  //height: 330px;
+  //text-align: left;
+  //margin-left: 25px;
+  //border: none;
+}
+
+.info_list {
   text-align: left;
-  margin-left: 25px;
-  border: none;
 }
 
 
 
-//Не нужно использовать заглавные буквы в создании классов
 
-.NextStep div {
-  display: inline-block;
-  height: 150px;
-}
+//Не желательно использовать заглавные буквы в создании классов
 
 .NextStep {
   display: grid;
@@ -108,10 +178,13 @@
   align-items: stretch;
   border: none;
   height: 160px;
+  
 }
+
 .Acolumn a {
   grid-area: a;
 }
+
 .Bcolumn {
   grid-area: b;
 }
@@ -120,10 +193,4 @@
   height: 150px;
 }
 
-.manage_mortgage {
-  height: 270px;
-}
 
-.comfort li {
-  text-align: left;
-}

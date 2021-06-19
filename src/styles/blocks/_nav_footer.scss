@@ -1,20 +1,15 @@
 /* Стилизация nav_footer */
 
-.nav_footer {
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
 .nav_footer .nav {
+    border-radius: 5px;
     color: black;
+    background-color: $white_color;
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
     list-style: none;
-    /* убираем маркеры */
+    /* убираем маркеры */   
 }
 
 .nav_main .logo_phone {

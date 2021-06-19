@@ -7,6 +7,7 @@
 .box {
     width: 1440px;
     margin: 0 auto;
+    background-color: $general_background_color;
 }
 
 header div {
@@ -16,13 +17,13 @@ header div {
 body {
     text-align: center;
     color: rgb(54, 56, 58);
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(220, 220, 220);
     margin-bottom: 150px;
     font-family: $font_opensans;
 }
 
 body div {
-    border: 1px solid rgb(79, 226, 79);
+    //border: 1px solid rgb(79, 226, 79);
     margin: 3px;
     background-color: rgb(255, 255, 255);
 }
@@ -33,21 +34,25 @@ footer {
 
 h4 {
     margin-bottom: 1px;
+    font-size: 20px;
+    margin-top: 5px;
 }
 
 p {
     margin: 0px;
+    font-size: 15px;
 }
 
 ul {
     list-style: none;
+    font-size: 13px;
 }
 
 /* >>>>>>Кнопки<<<<<< */
 
 .button {
-    color: white;
-    font-weight: 700;
+    color: $white_color;
+    font-weight: 500;
     text-decoration: none;
     padding: 4px;
     border-radius: 3px;
@@ -57,12 +62,12 @@ ul {
 }
 
 .button:hover {
-    background: rgb(5, 158, 82);
+    background: $shadow_green_hover;
 }
 
 .button_sales:active {
     background: rgb(48, 95, 71);
-    box-shadow: 0 3px rgb(37, 80, 59) inset;
+    box-shadow: 0 3px $hover_green_button inset;
 }
 
 .button_non {
@@ -76,8 +81,8 @@ ul {
     //box-shadow: 0 -3px rgb(104, 235, 169) inset;
     //transition: 0.2s;
     //overflow: hidden;
-    color: white;
-    font-weight: 700;
+    color: $white_color;
+    font-weight: 500;
     text-decoration: none;
     padding: 4px;
     border-radius: 3px;
@@ -92,5 +97,5 @@ ul {
 
 .button_non:active {
     background: rgb(48, 95, 71);
-    box-shadow: rgb(37, 80, 59);
+    box-shadow: $hover_green_button;
 }
