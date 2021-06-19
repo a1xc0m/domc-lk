@@ -44,10 +44,12 @@
   border: none;
   height: 550px;
 }
+
 .left {
   grid-area: a;
   height: 520px;
 }
+
 .right {
   grid-area: b;
   height: 520px;
@@ -87,6 +89,8 @@
   margin-left: 25px;
   border: none;
 }
+
+
 
 //Не нужно использовать заглавные буквы в создании классов
 

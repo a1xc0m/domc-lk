@@ -5,6 +5,8 @@
   left: 0;
   width: 100%;
   z-index: 1000;
+  //border: 1px solid rgb(79, 226, 79);
+  //border-radius: 30px;
 }
 
 .nav_main .nav {
@@ -15,6 +17,8 @@
   padding: 0;
   list-style: none;
   /* убираем маркеры */
+  //background-color: aqua;
+  //border-radius: 30px;
 }
 
 .nav_main .logo_phone {
@@ -34,6 +38,7 @@
   display: flex;
   padding: 33px 25px;
   text-decoration: none;
+  //убираем ссылку
   color: black;
 }
 
@@ -42,3 +47,10 @@
   box-shadow: 0 0 30px rgb(48, 95, 71);
 }
 
+.logo {
+  margin-right: auto;
+}
+
+.phone {
+  margin-left: auto;
+}
