@@ -29,7 +29,7 @@
   margin: 0px;
   grid-area: a;
   text-align: center;
-  background-color: rgb(115, 225, 120);
+  background-color: rgb(102, 192, 106);
   padding: 5px;
   border-radius: 5px;
   //box-shadow: 0 0 10px #c2c2c2;
@@ -164,9 +164,6 @@
   text-align: left;
 }
 
-
-
-
 //Не желательно использовать заглавные буквы в создании классов
 
 .NextStep {
@@ -178,7 +175,6 @@
   align-items: stretch;
   border: none;
   height: 160px;
-  
 }
 
 .Acolumn a {
@@ -192,5 +188,3 @@
 .right div:last-child {
   height: 150px;
 }
-
-

@@ -1,35 +1,92 @@
 /* Стилизация nav_footer */
 
-.nav_footer .nav {
+.nav_footer .nav_top_footer {
     border-radius: 5px;
     color: black;
     background-color: $white_color;
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin: 1px;
     padding: 0;
     list-style: none;
+    border-radius: 5px 5px 0 0;
     /* убираем маркеры */   
 }
 
-.nav_main .logo_phone {
-    font-family: $font_opensans;
-    /* чуть позже подключу шрифты */
-    font-weight: 400;
-    font-size: 14px;
+.nav_footer .nav_bottom_footer {
+    border-radius: 5px;
+    color: black;
+    background-color: $white_color;
     display: flex;
+    justify-content: center;
+    margin: 1px;
+    padding: 0;
     list-style: none;
-    align-items: center;
-    justify-content: space-between;
+    /* убираем маркеры */
+    border-radius: 0 0 5px 5px;   
 }
 
-.nav a {
+.nav_top_footer a {
     font-family: $font_opensans;
-    /* чуть позже подключу шрифты */
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
     display: flex;
-    padding: 33px 25px;
+    padding: 20px 20px;
     text-decoration: none;
-    color: black;
+    color: $nav_font_gray;
 }
+
+.nav_bottom_footer a {
+    font-family: $font_opensans;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: $nav_font_gray;
+}
+
+.nav_top_footer a:hover {
+    height: 100%;
+    box-shadow: 0 0 30px $shadow_green_hover;
+    border-radius: 5px;
+}
+  
+.nav_bottom_footer a:hover {
+    height: 100%;
+    box-shadow: 0 0 30px $shadow_green_hover;
+    border-radius: 5px;
+}
+  
+.logo {
+    margin-right: auto;
+}
+  
+.phone {
+    margin-left: auto;
+}
+
+.nav_bottom_under_item {
+    display: flex;
+    justify-content: center;
+    color: $nav_font_gray;
+    
+}
+
+.nav_bottom_img {
+    margin: auto;
+}
+
+.nav_bottom_policy {
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+}
+
+.nav_bottom_social {
+    list-style: none;
+    margin: auto;
+    padding-left: 0;
+    text-decoration: none;
+}
+

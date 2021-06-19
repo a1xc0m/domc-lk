@@ -1,26 +1,40 @@
 /* Стилизация nav_main */
 
 .nav_main {
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
+  //top: 0;
+  //left: 0;
+  //width: 100%;
+  //z-index: 1000;
   //border-radius: 30px;
 }
 
-.nav_main .nav {
+.nav_main .nav_top_main {
   color: black;
   background-color: $white_color;
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin: 1px;
   padding: 0;
   list-style: none;
   /* убираем маркеры */
   //background-color: aqua;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
 }
 
+.nav_main .nav_bottom_main {
+  color: black;
+  background-color: $white_color;
+  display: flex;
+  justify-content: center;
+  margin: 1px;
+  padding: 0;
+  list-style: none;
+  /* убираем маркеры */
+  //background-color: aqua;
+  border-radius: 0 0 5px 5px;
+}
+
+/*
 .nav_main .logo_phone {
   font-family: $font_opensans;
   font-weight: 400;
@@ -30,19 +44,37 @@
   align-items: center;
   justify-content: space-between;
 }
+*/
 
-.nav a {
+.nav_top_main a {
   font-family: $font_opensans;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
   display: flex;
-  padding: 33px 25px;
+  padding: 20px 20px;
   text-decoration: none;
   //убираем ссылку
-  color: black;
+  color: $nav_font_gray;
 }
 
-.nav a:hover {
+.nav_bottom_main a {
+  font-family: $font_opensans;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  padding: 20px 20px;
+  text-decoration: none;
+  //убираем ссылку
+  color: $nav_font_gray;
+}
+
+.nav_top_main a:hover {
+  height: 100%;
+  box-shadow: 0 0 30px $shadow_green_hover;
+  border-radius: 5px;
+}
+
+.nav_bottom_main a:hover {
   height: 100%;
   box-shadow: 0 0 30px $shadow_green_hover;
   border-radius: 5px;
