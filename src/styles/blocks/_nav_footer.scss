@@ -66,11 +66,20 @@
     margin-left: auto;
 }
 
+.nav_bottom_under {
+
+}
+
+.nav_bottom_under_list {
+    
+}
+
 .nav_bottom_under_item {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     color: $nav_font_gray;
-    
+    width: 80%;
+    margin: auto;
 }
 
 .nav_bottom_img {
