@@ -1,11 +1,7 @@
 /* Стилизация nav_main */
 
 .nav_main {
-  //top: 0;
-  //left: 0;
-  //width: 100%;
-  //z-index: 1000;
-  //border-radius: 30px;
+  
 }
 
 .nav_main .nav_top_main {
@@ -15,9 +11,7 @@
   justify-content: center;
   margin: 1px;
   padding: 0;
-  list-style: none;
-  /* убираем маркеры */
-  //background-color: aqua;
+  list-style: none; /* убираем маркеры */
   border-radius: 5px 5px 0 0;
 }
 
@@ -71,20 +65,21 @@
 .nav_top_main a:hover {
   height: 100%;
   box-shadow: 0 0 30px $shadow_green_hover;
+  background-color: $general_button_color;
   border-radius: 5px;
 }
 
 .nav_bottom_main a:hover {
   height: 100%;
   box-shadow: 0 0 30px $shadow_green_hover;
+  background-color: $general_button_color;
   border-radius: 5px;
 }
 
 .logo {
-  
-  margin-left: 540px;
+
 }
 
 .phone {
-  margin-right: 540px;
+  
 }

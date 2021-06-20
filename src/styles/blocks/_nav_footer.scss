@@ -1,4 +1,4 @@
-/* Стилизация nav_footer */
+/* Стилизация nav_top_footer */
 
 .nav_footer .nav_top_footer {
     border-radius: 5px;
@@ -8,22 +8,8 @@
     justify-content: center;
     margin: 1px;
     padding: 0;
-    list-style: none;
-    border-radius: 5px 5px 0 0;
-    /* убираем маркеры */   
-}
-
-.nav_footer .nav_bottom_footer {
-    border-radius: 5px;
-    color: black;
-    background-color: $white_color;
-    display: flex;
-    justify-content: center;
-    margin: 1px;
-    padding: 0;
-    list-style: none;
-    /* убираем маркеры */
-    border-radius: 0 0 5px 5px;   
+    list-style: none; /* убираем маркеры */
+    border-radius: 5px 5px 0 0;   
 }
 
 .nav_top_footer a {
@@ -46,18 +32,6 @@
     color: $nav_font_gray;
 }
 
-.nav_top_footer a:hover {
-    height: 100%;
-    box-shadow: 0 0 30px $shadow_green_hover;
-    border-radius: 5px;
-}
-  
-.nav_bottom_footer a:hover {
-    height: 100%;
-    box-shadow: 0 0 30px $shadow_green_hover;
-    border-radius: 5px;
-}
-  
 .logo {
     margin-right: auto;
 }
@@ -66,8 +40,90 @@
     margin-left: auto;
 }
 
-.nav_bottom_under {
+/* Стилизация nav_bottom_footer */
 
+.nav_footer .nav_bottom_footer {
+    border-radius: 5px;
+    color: black;
+    background-color: $white_color;
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+    padding: 0;
+    list-style: none; /* убираем маркеры */
+    border-radius: 0 0 5px 5px;
+}
+
+.nav_bottom_footer a {
+    font-family: $font_opensans;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: $nav_font_gray;
+}
+
+.nav_bottom_footer a {
+    font-family: $font_opensans;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: $nav_font_gray;
+}
+
+
+/* Стилизация наведения курсора */
+
+
+.nav_top_footer a:hover {
+    height: 100%;
+    box-shadow: 0 0 30px $shadow_green_hover;
+    background-color: $general_button_color;
+    border-radius: 5px;
+}
+
+.nav_bottom_footer .logo:hover,
+.nav_bottom_footer .phone:hover {
+    height: 100%;
+    background-color: $general_button_color;
+    box-shadow: 0 0 30px $shadow_green_hover;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.nav_footer .nav_bottom_under {
+    border-radius: 0 0 5px 5px; 
+    color: $nav_font_gray;
+    background-color: $white_color;
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+    padding: 0;
+    list-style: none;
+    
 }
 
 .nav_bottom_under_list {
@@ -78,24 +134,42 @@
     display: flex;
     justify-content: space-between;
     color: $nav_font_gray;
-    width: 80%;
     margin: auto;
 }
 
-.nav_bottom_img {
+.nav_bottom_logo a {
+    font-size: 14px;
+    font-weight: 600;
+    color: $nav_font_gray;
+    text-align: center;
+    text-decoration: none;
     margin: auto;
+    align-items: center;
 }
 
-.nav_bottom_policy {
+.nav_bottom_policy p {
     text-align: center;
     margin: auto;
     font-weight: 600;
 }
 
-.nav_bottom_social {
+.nav_bottom_social a {
+    font-size: 14px;
+    font-weight: 600;
+    color: $nav_font_gray;
     list-style: none;
     margin: auto;
     padding-left: 0;
     text-decoration: none;
 }
+*/
+
+
+
+
+
+
+
+
+
 
