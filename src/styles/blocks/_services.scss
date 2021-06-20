@@ -1,0 +1,32 @@
+.services_list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+  
+.services_item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: $font_opensans;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 20px 20px;
+    text-decoration: none; /* убираем ссылку */
+    color: $nav_font_gray;
+
+    a {
+        text-decoration: none;
+        color: $nav_font_gray;
+    }
+}
+
+.services_item:hover {
+    height: 100%;
+    box-shadow: 0 0 30px $shadow_green_hover;
+    background-color: $general_button_color;
+    transition: 1s; /* время на взаимодействие при наведении */
+    border-radius: 5px;
+}

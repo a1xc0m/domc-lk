@@ -83,7 +83,7 @@
   align-items: stretch;
   background-color: $general_background_color;
   border: none;
-  height: 550px;
+  height: 525px;
 }
 
 .left {
@@ -130,29 +130,6 @@
   text-align: left;
 }
 
-.action_list {
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1px;
-  grid-auto-rows: 70px;
-  grid-template-areas: "a b c";
-  align-items: stretch;
-  border: none;
-  */
-  display: flex;
-  justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.action_item {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  //margin: 0px;
-  //grid-area: a;
-  //text-align: center;
-}
-
 .info {
   //height: 330px;
   //text-align: left;
@@ -175,6 +152,7 @@
   align-items: stretch;
   border: none;
   height: 160px;
+  margin-top: 20px;
 }
 
 .Acolumn a {

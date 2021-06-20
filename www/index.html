@@ -87,7 +87,7 @@
                 </div>
                 <div class="right">
                     <!--Div class="info" Здесь информация об одобренной ипотеке + ссылка на окно с расходами клиента и объяснением что это снижает ставку (Например ДСЖ и ЭР), а это обязательно (Залоговое страхование)-->
-                    <div class="info">
+                    <!-- <div class="info">
                         <h4>Вам одобрено 6 000 000</h4><br>
                         <p>Программа - приобретение готового жилья</p><br>
                         <p>Срок ипотеки - 240 мес</p><br>
@@ -99,6 +99,23 @@
                     <div>
                         <h4>Расходы и сервисы</h4> <br>
                         <a class="button_non" href="#">Узнать расходы на сделку и сервисы </a>
+                    </div> -->
+                    <div class="info">
+                        <h4>Одобренные параметры</h4>
+                        <iframe id="calcus-iframe-ipoteka" width="100%" height="300" frameborder="0" 
+                        style="width:1px; min-width: 100%;" scrolling="no" 
+                        src="https://calcus.ru/kalkulyator-ipoteki?embed=1&lang=ru&bgcolor=%23fff&buttoncolor=%23408c5b&type=1&cost=5000000&start_sum_type=1&start_sum=1000000&credit_sum=4000000&period_type=Y&period=20&currency_text=%E2%82%BD" 
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div style="margin-top:5px; font-size: 0.9em; color:#999">Ипотечный калькулятор предоставлен сайтом и несет исключительно информативный характер 
+                            <a href="https://calcus.ru/kalkulyator-ipoteki" target="_blank">calcus.ru</a>
+                        </div>
+                        <script>
+                            window.addEventListener('message', function(event) {
+                                if (height_ipoteka = event.data['height_ipoteka']) {
+                                    document.getElementById('calcus-iframe-ipoteka').style.height = height_ipoteka + 'px'
+                                    }
+                            })
+                        </script>
                     </div>
                 </div>
             </div>
@@ -118,19 +135,34 @@
                 </ul>
             </div>
 
-            <div class="take_action">
-                <div class="action_list">
-                    <div class="action_item">
-                        <a class="button" href="#">добавить агента/продавца в сделку</a>
+            <section class="services">
+                <div class="services_list">
+                    <div class="services_item">
+                        <a href="#">Ипотечное страхование</a>
                     </div>
-                    <div class="action_item">
-                        <a class="button" href="#">Позвонить менеджеру</a>
+                    <div class="services_item">
+                        <a href="#">Список оценочных компаний</a>
                     </div>
-                    <div class="action_item">
-                        <a class="button" href="#">Написать менеджеру</a>
+                    <div class="services_item">
+                        <a href="#">Юридическая проверка</a>
+                    </div>
+                    <div class="services_item">
+                        <a href="#">Агенства недвижимости</a>
+                    </div>
+                    <div class="services_item">
+                        <a href="#">Электронная регистрация</a>
+                    </div>
+                    <div class="services_item">
+                        <a href="#">Безопасные расчеты</a>
+                    </div>
+                    <div class="services_item">
+                        <a href="#">Медицинский консультант</a>
+                    </div>
+                    <div class="services_item">
+                        <a href="#">Сделка под ключ за свои средства</a>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     </main>
 
