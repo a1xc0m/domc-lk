@@ -82,6 +82,7 @@
     height: 100%;
     box-shadow: 0 0 30px $shadow_green_hover;
     background-color: $general_button_color;
+    transition: 1s; /* время на взаимодействие при наведении */
     border-radius: 5px;
 }
 
@@ -90,6 +91,7 @@
     height: 100%;
     background-color: $general_button_color;
     box-shadow: 0 0 30px $shadow_green_hover;
+    transition: 1s; /* время на взаимодействие при наведении */
     border-radius: 5px;
 }
 

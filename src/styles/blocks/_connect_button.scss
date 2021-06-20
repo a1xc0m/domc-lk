@@ -1,0 +1,19 @@
+.connect_button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 0px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1000;
+    width: 100%;
+}
+
+.connect_massege {
+    background-color: $general_background_color;
+}
+
+.connect_add {
+    background-color: $general_background_color;
+}
