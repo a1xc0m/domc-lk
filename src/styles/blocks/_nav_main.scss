@@ -1,9 +1,5 @@
 /* Стилизация nav_main */
 
-.nav_main {
-  
-}
-
 .nav_main .nav_top_main {
   color: black;
   background-color: $white_color;
@@ -23,21 +19,8 @@
   margin: 1px;
   padding: 0;
   list-style: none; /* убираем маркеры */
-  //background-color: aqua;
   border-radius: 0 0 5px 5px;
 }
-
-/*
-.nav_main .logo_phone {
-  font-family: $font_opensans;
-  font-weight: 400;
-  font-size: 14px;
-  display: flex;
-  list-style: none;
-  align-items: center;
-  justify-content: space-between;
-}
-*/
 
 .nav_top_main a {
   font-family: $font_opensans;
