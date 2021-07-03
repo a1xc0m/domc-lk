@@ -1,7 +1,11 @@
-// Стилизация status
+/* >>>>>> Стилизация status <<<<<< */
 
 .status {
   background-color: $general_background_color;
+}
+
+.status p {
+  font-weight: 600;
 }
 
 .status_wrap {
@@ -40,3 +44,4 @@
 .bg_color:hover {
   box-shadow: 0 0 30px $shadow_green_hover;
 }
+

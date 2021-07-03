@@ -1,0 +1,31 @@
+/* >>>>>> Стилизация news <<<<<< */
+
+.news {
+  margin: 30px 0 40px 0;
+  padding: 10px 10px 10px 10px;
+  padding-bottom: 0;
+}
+
+.news-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-link p {
+  font-weight: 600;
+}
+
+.news-new {
+  height: 100%;
+  background-color: $white_color;
+  border-radius: 5px;
+}
+
+.news-wrap {
+  padding-top: 25px;
+  padding-bottom: 0px;
+  height: 100%;
+  border-radius: 5px;
+  // background-color: $general_background_color;
+}
+

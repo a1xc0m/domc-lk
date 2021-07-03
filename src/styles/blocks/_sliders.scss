@@ -1,8 +1,4 @@
-.advt-wrap {
-  display: flex;
-  justify-content: space-between;
-  
-}
+/* >>>>>> Стилизация slider <<<<<< */
 
 .slider {
   width: 80%;
@@ -59,4 +55,28 @@
     &:hover {
       box-shadow: 0 0 30px $shadow_green_hover;
     }
+}
+
+.slider-item {
+  // border: 1px black solid;
+  border-radius: 5px;
+}
+
+.slider-item .photo {
+  display: block;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 270px;
+  height: 200px;
+  object-fit: cover;
+  &:hover {
+    box-shadow: 0 0 30px $shadow_green_hover;
+    transition: 1s;
+  }
+}
+
+.slider-item .news-link {
+  text-decoration: none;
+  color: black;
 }
