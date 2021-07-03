@@ -1,6 +1,6 @@
 /* Стилизация nav_main */
 
-.nav_main .nav_top_main {
+.nav-main .nav-top-main {
   color: black;
   background-color: $white_color;
   display: flex;
@@ -11,7 +11,7 @@
   border-radius: 5px 5px 0 0;
 }
 
-.nav_main .nav_bottom_main {
+.nav-main .nav-bottom-main {
   color: black;
   background-color: $white_color;
   display: flex;
@@ -22,7 +22,7 @@
   border-radius: 0 0 5px 5px;
 }
 
-.nav_top_main a {
+.nav-top-main a {
   font-family: $font_opensans;
   font-weight: 600;
   font-size: 14px;
@@ -32,7 +32,7 @@
   color: $nav_font_gray;
 }
 
-.nav_bottom_main a {
+.nav-bottom-main a {
   font-family: $font_opensans;
   font-weight: 600;
   font-size: 14px;
@@ -42,7 +42,7 @@
   color: $nav_font_gray;
 }
 
-.nav_top_main a:hover {
+.nav-top-main a:hover {
   height: 100%;
   box-shadow: 0 0 30px $shadow_green_hover;
   background-color: $general_button_color;
@@ -50,7 +50,7 @@
   border-radius: 5px;
 }
 
-.nav_bottom_main a:hover {
+.nav-bottom-main a:hover {
   height: 100%;
   box-shadow: 0 0 30px $shadow_green_hover;
   background-color: $general_button_color;

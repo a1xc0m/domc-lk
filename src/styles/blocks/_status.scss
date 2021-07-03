@@ -1,0 +1,42 @@
+// Стилизация status
+
+.status {
+  background-color: $general_background_color;
+}
+
+.status_wrap {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: $general_background_color;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.status_wrap .bg_color {
+  width: 24.5%;
+  margin: 0px;
+  grid-area: a;
+  text-align: center;
+  background-color: rgb(102, 192, 106);
+  padding: 5px;
+  border-radius: 5px;
+  //box-shadow: 0 0 10px #c2c2c2;
+}
+
+.status_wrap .status_item {
+  width: 24.5%;
+  grid-area: b;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  background-color: $white_color;
+  border-radius: 5px;
+  //box-shadow: 0 0 10px #c2c2c2;
+}
+
+.status_item:hover,
+.bg_color:hover {
+  box-shadow: 0 0 30px $shadow_green_hover;
+}

@@ -1,6 +1,6 @@
 /* Стилизация nav_top_footer */
 
-.nav_footer .nav_top_footer {
+.nav-footer .nav-top-footer {
     border-radius: 5px;
     color: black;
     background-color: $white_color;
@@ -11,10 +11,9 @@
     padding: 0;
     list-style: none; /* убираем маркеры */
     border-radius: 5px 5px 0 0;
-
 }
 
-.nav_top_footer a {
+.nav-top-footer a {
     font-family: $font_opensans;
     font-weight: 600;
     font-size: 14px;
@@ -24,7 +23,7 @@
     color: $nav_font_gray;
 }
 
-.nav_bottom_footer a {
+.nav-bottom-footer a {
     font-family: $font_opensans;
     font-weight: 600;
     font-size: 14px;
@@ -44,7 +43,7 @@
 
 /* Стилизация nav_bottom_footer */
 
-.nav_footer .nav_bottom_footer {
+.nav-footer .nav-bottom-footer {
     border-radius: 5px;
     color: black;
     background-color: $white_color;
@@ -56,7 +55,7 @@
     border-radius: 0 0 5px 5px;
 }
 
-.nav_bottom_footer a {
+.nav-bottom-footer a {
     font-family: $font_opensans;
     font-weight: 600;
     font-size: 14px;
@@ -66,7 +65,7 @@
     color: $nav_font_gray;
 }
 
-.nav_bottom_footer a {
+.nav-bottom-footer a {
     font-family: $font_opensans;
     font-weight: 600;
     font-size: 14px;
@@ -80,7 +79,7 @@
 /* Стилизация наведения курсора */
 
 
-.nav_top_footer a:hover {
+.nav-top-footer a:hover {
     height: 100%;
     box-shadow: 0 0 30px $shadow_green_hover;
     background-color: $general_button_color;
@@ -88,8 +87,8 @@
     border-radius: 5px;
 }
 
-.nav_bottom_footer .logo:hover,
-.nav_bottom_footer .phone:hover {
+.nav-bottom-footer .logo:hover,
+.nav-bottom-footer .phone:hover {
     height: 100%;
     background-color: $general_button_color;
     box-shadow: 0 0 30px $shadow_green_hover;

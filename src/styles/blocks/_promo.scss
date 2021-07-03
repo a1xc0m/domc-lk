@@ -1,74 +1,3 @@
-.histori {
-  background-color: $general_background_color;
-}
-
-.histori_wrap {
-  display: flex;
-  height: 100%;
-  justify-content: space-between;
-  border-radius: 5px;
-  background-color: $general_background_color;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.histori_wrap .bg_color {
-  width: 24.5%;
-  margin: 0px;
-  grid-area: a;
-  text-align: center;
-  background-color: rgb(102, 192, 106);
-  padding: 5px;
-  border-radius: 5px;
-  //box-shadow: 0 0 10px #c2c2c2;
-}
-
-.histori_wrap .histori_item {
-  width: 24.5%;
-  grid-area: b;
-  text-align: center;
-  margin: 0px;
-  padding: 10px;
-  background-color: $white_color;
-  border-radius: 5px;
-  //box-shadow: 0 0 10px #c2c2c2;
-}
-
-.histori_item:hover,
-.bg_color:hover {
-  box-shadow: 0 0 30px $shadow_green_hover;
-}
-
-.center-wrap {
-  display: flex;
-  height: 100%;
-  justify-content: space-between;
-  border-radius: 5px;
-  background-color: $general_background_color;
-}
-
-.left {
-  grid-area: a;
-  height: 520px;
-  border-radius: 5px;
-  width: 49.5%;
-}
-
-.left:hover {
-  box-shadow: 0 0 30px $shadow_green_hover;
-}
-
-.right {
-  grid-area: b;
-  height: 520px;
-  border-radius: 5px;
-  width: 49.5%;
-}
-
-.right:hover {
-  box-shadow: 0 0 30px $shadow_green_hover;
-}
-
 .take_action {
   border-radius: 5px;
   margin-bottom: 10px;
@@ -92,13 +21,6 @@
 
 .comfort li {
   text-align: left;
-}
-
-.info {
-  //height: 330px;
-  //text-align: left;
-  //margin-left: 25px;
-  //border: none;
 }
 
 .info-list {
