@@ -1,6 +1,6 @@
 /* >>>>>> Стилизация services <<<<<< */
 
-.services_list {
+.services-list {
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
@@ -10,7 +10,7 @@
     margin-top: 10px;
 }
   
-.services_item {
+.services-item {
     padding-top: 15px;
     padding-bottom: 15px;
     font-family: $font_opensans;
@@ -26,7 +26,7 @@
     }
 }
 
-.services_item:hover {
+.services-item:hover {
     height: 100%;
     box-shadow: 0 0 30px $shadow_green_hover;
     background-color: $general_button_color;
