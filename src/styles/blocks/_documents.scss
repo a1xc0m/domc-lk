@@ -1,9 +1,42 @@
 /* >>>>>> Стилизация documents <<<<<< */
 
-
 .documents-wrap {
   display: flex;
   justify-content: space-around;
   background-color: $white_color;
   border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.documents-buyer-list {
+  padding-left: 0;
+  text-align: left;
+}
+
+.documents-seller-list {
+  padding-left: 0;
+  text-align: left;
+}
+
+.documents-item {
+  border-radius: 5px;
+  box-shadow: 0 0 3px;
+  padding: 10px 5px 10px 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  &:hover {
+    box-shadow: 0 0 30px $shadow_green_hover;
+    transition: 1s;
+  }
+}
+
+.documents-buyer {
+  // border-radius: 5px;
+  // box-shadow: 0 0 2px;
+}
+
+.documents-seller {
+  // border-radius: 5px;
+  // box-shadow: 0 0 2px;
 }
