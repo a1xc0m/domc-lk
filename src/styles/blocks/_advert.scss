@@ -1,0 +1,41 @@
+.advert {
+  padding: 10px 10px 10px 10px;
+  padding-bottom: 0;
+}
+
+.advert-new {
+  height: 100%;
+  background-color: $white_color;
+  border-radius: 5px;
+}
+
+.advt-wrap {
+  padding-top: 25px;
+  padding-bottom: 0px;
+  height: 100%;
+  border-radius: 5px;
+  // background-color: $general_background_color;
+}
+
+.slider-item {
+  // border: 1px black solid;
+  border-radius: 5px;
+}
+
+.slider-item .photo {
+  display: block;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 270px;
+  height: 200px;
+  &:hover {
+    box-shadow: 0 0 30px $shadow_green_hover;
+    transition: 1s;
+  }
+}
+
+.slider-item .advt-link {
+  text-decoration: none;
+  color: black;
+}

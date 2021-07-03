@@ -157,7 +157,7 @@
 //   console.log($('.js-slider-wrap'));
 
 //   // Делаем карусель в секции photos
-  
+
 
 //   // Вариант не работает, если кнопки сделали сами.
 //   // если есть несколько каруселей на странице, то кнопки всех каруселей
@@ -169,13 +169,29 @@
 //     nextArrow: '.js-btn-next',
 //   });
 
-  
+
 
 // });
 
 $(document).ready(function () {
 
-  
+  $('.js-slider-wrap').each(function (index, sliderWrap) {
+    let slider = $(sliderWrap).find('.js-slider');
+    let btnPrev = $(sliderWrap).find('.js-btn-prev');
+    let btnNext = $(sliderWrap).find('.js-btn-next');
+
+    $(slider).slick({
+      autoplay: true,
+      dots: true,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      prevArrow: btnPrev,
+      nextArrow: btnNext,
+    });
+
+    console.log(index);
+    console.log(sliderWrap);
+  });
 
 });
 

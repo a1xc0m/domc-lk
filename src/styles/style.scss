@@ -3,6 +3,10 @@
 @import "common/_fonts";
 @import "common/_typography";
 
+// plugins
+@import "plugins/slick";
+@import "plugins/slick-theme";
+
 // blocks
 @import "blocks/_general";
 @import "blocks/_promo";
@@ -13,3 +17,5 @@
 @import "blocks/_sliders";
 @import "blocks/_center";
 @import "blocks/_status";
+@import "blocks/_advert";
+
