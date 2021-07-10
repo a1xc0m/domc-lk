@@ -2,19 +2,18 @@
 
 .status {
   background-color: $general_background_color;
-  
 }
 
 .status-item {
   margin: 50px 50px 50px 50px;
-  
 }
 
 .status-item p {
-  display: inline-block;
+  display: block;
   color: black;
   font-weight: 600;
   text-decoration: none;
+  padding: 5px 5px 5px 5px;
 }
 
 .status-wrap {
