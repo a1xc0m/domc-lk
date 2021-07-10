@@ -1,0 +1,51 @@
+// Стилизация index
+
+.start-page-title {
+  margin-top: 50px;
+}
+
+.nav-start-page {
+  border-radius: 5px;
+  width: 45.5%;
+}
+
+.update-start-page {
+  border-radius: 5px;
+  width: 45.5%;
+}
+
+.header-start-page-wrap {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba($color: #000000, $alpha: 0);
+}
+
+.nav-start-page-list {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba($color: #000000, $alpha: 0);
+
+}
+
+.nav-start-page-item {
+  background-color: $general_button_color3;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+    a {
+      color: black;
+      font-family: $font_opensans;
+      padding: 10px 10px 10px 10px;
+    }
+}
+
+
+
+
+
+
+
